@@ -9,6 +9,7 @@
       name="description"
       content="Web site created using create-react-app"
     />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -39,5 +40,23 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <div class="container pt-5">
+      <h1 class="heading">
+        <span>Redux</span>
+        <button class="btn btn-info" id="theme">Сменить тему</button>
+      </h1>
+
+      <hr>
+
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Счетчик: <span id="counter"></span></h5>
+          <button class="btn btn-primary" id="add">Добавить</button>
+          <button class="btn btn-danger" id="sub">Убрать</button>
+          <button class="btn btn-success" id="async">Async</button>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
